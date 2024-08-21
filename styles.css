@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body, html{
+body, 
+html{
     height: 100%;
     background-color: #222; 
     font-family: 'lato', sans-serif;
@@ -23,7 +24,7 @@ h2 {
     list-style: none;
     margin: 0;
     padding: 0;
-
+    overflow: auto;
 }
 
 ul li {
@@ -39,6 +40,7 @@ ul li {
 ul li input[type=radio] {
     position: absolute;
     visibility: hidden;
+   
 }
 
 ul li label {
@@ -101,4 +103,23 @@ input[type=radio]:checked ~ .check::before {
 
 input[type=radio]:checked ~ label {
     color: #0dff92;
+}
+
+footer {
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    color: #aaa;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: bold;
 }
