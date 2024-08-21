@@ -92,5 +92,13 @@ ul li .check::before {
 }
 
 input[type=radio]:checked ~ .check {
-    
+    border: 5px solid #0dff92;
+}
+
+input[type=radio]:checked ~ .check::before {
+    background: #0dff92;
+}
+
+input[type=radio]:checked ~ label {
+    color: #0dff92;
 }
